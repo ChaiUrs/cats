@@ -10,7 +10,6 @@ const breedDetailsFromFile = (breed, callback) => {
     } else {
       callback(undefined);
     }
-    console.log('breedDetailsFromFile: Calling readFile...');
   });
 };
 
